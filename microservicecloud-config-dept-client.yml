@@ -31,14 +31,14 @@ spring:
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka
   instance:
     instance-id: dept8001.com
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:
-  app.name: atguigu-microservicecloud
-  company.name: www.atguigu.com
+  app.name: king-microservicecloud
+  company.name: www.king.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 ---
@@ -70,13 +70,13 @@ spring:
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka
   instance:
     instance-id: dept8001.com
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:
-  app.name: atguigu-microservicecloud
-  company.name: www.atguigu.com
+  app.name: king-microservicecloud
+  company.name: www.king.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
